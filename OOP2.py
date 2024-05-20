@@ -35,7 +35,7 @@ class Students(Person):
 
 while True:
     
-    fname = input("Enter First Name (or type 'exit' to quit): ")
+    fname = input("Enter First Name: ")
     if fname.lower() == "exit":
         break
     lname = input("Enter Last Name: ")
